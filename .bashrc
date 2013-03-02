@@ -143,3 +143,7 @@ bind '"\e[B": history-search-forward'
 
 # Auto "cd" when entering just a path
 shopt -s autocd
+
+# Expand history size
+export HISTFILESIZE=10000
+export HISTSIZE=10000
