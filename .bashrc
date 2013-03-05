@@ -128,7 +128,6 @@ man()
 export CLASSPATH=$CLASSPATH.:/home/bp/Documents/ESI/LJV/classes:/usr/local/share/java/junit.jar
 export PATH=$PATH:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:/home/bp/bin:/home/bp/scripts
 export EDITOR="vim"
-export USE_CCACHE=1                         # Ccache acts as a compiler cache that can be used to speed-up rebuilds.
 
 ################################################################################
 # Various
