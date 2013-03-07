@@ -407,7 +407,9 @@ set nu
 set mousehide
 
 " Extension mapping
+augroup filetypedetect
 au BufRead,BufNewFile *.lda set filetype=lda
+augroup END
 
 " To-do: what does this line do?
 "au! Syntax newlang source $VIM/syntax/lda.vim
