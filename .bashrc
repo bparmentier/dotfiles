@@ -126,7 +126,7 @@ man()
 ################################################################################
 
 export CLASSPATH=$CLASSPATH.:/home/bp/Documents/ESI/LJV/classes:/usr/local/share/java/junit.jar
-export PATH=$PATH:/opt/android-sdk/tools:/opt/android-sdk/platform-tools:/home/bp/bin:/home/bp/scripts
+export PATH=$PATH:/home/bp/scripts
 export EDITOR="vim"
 
 ################################################################################
