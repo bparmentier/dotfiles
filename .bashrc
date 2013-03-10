@@ -125,7 +125,7 @@ man()
 # Variable Environments
 ################################################################################
 
-export CLASSPATH=$CLASSPATH.:~/Documents/ESI/LJV/classes:~/Documents/ESI/LJV/projet/classes:/usr/local/share/java/junit.jar
+export CLASSPATH=$CLASSPATH.:~/Documents/ESI/LJV/classes:~/Documents/ESI/LJV/projet:/usr/local/share/java/junit.jar
 export PATH=$PATH:/home/bp/scripts
 export EDITOR="vim"
 
