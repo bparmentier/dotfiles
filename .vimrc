@@ -420,4 +420,4 @@ abbr _scanner import java.util.Scanner;
 abbr _class public class <esc>:r!echo %:r<cr><up>A<del><end> {<cr>
 abbr _main public static void main(String[] args) {
 abbr _clavier Scanner clavier = new Scanner(System.in);
-abbr _jvdc /**<cr><cr>@param<cr>@return<cr><backspace>*/
+abbr _jvdc /**<cr><cr>@param<cr>@return<cr><backspace>/
