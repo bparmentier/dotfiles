@@ -13,7 +13,7 @@ fi
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
-sh ~/.fehbg &
+eval $(cat ~/.fehbg) &
 
 mpd ~/.mpdconf
 
