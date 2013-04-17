@@ -1,0 +1,18 @@
+" Window title
+set titlestring="Mozilla Firefox - Vimperator"
+
+" Default search engine
+set defsearch=duckduckgo
+
+" QuickMarks
+qmark a https://www.google.com/calendar/
+qmark d https://drive.google.com/
+qmark f https://www.facebook.com/
+qmark g https://mail.google.com/
+qmark G https://www.google.be/
+qmark k https://www.keytradebank.com/secure/login.html?lang=fr
+qmark m https://maps.google.be/
+qmark p http://elearning.esi.heb.be/index.php
+
+" Toolbars
+set toolbars=noaddons,nobookmarks,nomenu,nonavigation,tabs
