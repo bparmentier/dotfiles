@@ -75,8 +75,6 @@ alias classpath='echo -e ${CLASSPATH//:/\\n}'
 alias clr='clear'
 alias pingg='ping -c 3 www.google.com'
 alias su='su -'
-alias bl='xbacklight -set'
-alias vol='amixer sset Master'
 alias horaire='cd /home/bp/Documents/ESI/ && mupdf Tech1Bim4.pdf &'
 
 ################################################################################
