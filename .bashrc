@@ -78,7 +78,6 @@ alias su='su -'
 alias bl='xbacklight -set'
 alias vol='amixer sset Master'
 alias horaire='cd /home/bp/Documents/ESI/ && mupdf Tech1Bim4.pdf &'
-#alias pacman='pacman-color'                # /usr/bin/pacman linked to /usr/bin/pacman-color
 
 ################################################################################
 # Functions
