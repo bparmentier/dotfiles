@@ -11,6 +11,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 
+xmodmap ~/.Xmodmap
+
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 eval $(cat ~/.fehbg) &
@@ -18,7 +20,7 @@ eval $(cat ~/.fehbg) &
 mpd ~/.mpdconf
 
 # Screen powersave
-#xset +dpms
-#xset dpms 0 0 300
+xset +dpms
+xset dpms 0 0 300
 
 exec i3
