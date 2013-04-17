@@ -409,7 +409,7 @@ set mousehide
 " Extension mapping
 augroup filetypedetect
 au BufRead,BufNewFile *.lda set filetype=lda
-au BufRead,BufNewFile *.vimperatorrc set filetype=vimperator
+au BufRead,BufNewFile .vimperatorrc set filetype=vimperator
 augroup END
 
 " To-do: what does this line do?
