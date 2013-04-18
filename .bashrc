@@ -140,6 +140,12 @@ bind '"\e[B": history-search-forward'
 # Auto "cd" when entering just a path
 shopt -s autocd
 
+# Erase duplicates in history
+export HISTCONTROL=erasedups
+
 # Expand history size
 export HISTFILESIZE=10000
 export HISTSIZE=10000
+
+# Append to the history file when exiting instead of overwriting it
+shopt -s histappend
