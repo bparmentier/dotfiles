@@ -408,6 +408,7 @@ set mousehide
 
 " Extension mapping
 augroup filetypedetect
+au BufRead,BufNewFile *.asm set filetype=nasm
 au BufRead,BufNewFile *.lda set filetype=lda
 au BufRead,BufNewFile .vimperatorrc set filetype=vimperator
 augroup END
