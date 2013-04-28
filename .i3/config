@@ -149,6 +149,9 @@ bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
 bindsym XF86AudioMute exec amixer sset Master toggle
 bindsym XF86AudioPlay exec ncmpcpp toggle
 
+# force specific windows to be floating
+for_window [class="Firefox" instance="Browser"] floating enable
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
