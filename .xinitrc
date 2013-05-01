@@ -23,6 +23,6 @@ mpd ~/.mpdconf
 xset +dpms
 xset dpms 0 0 300
 
-exec i3
-
 (sleep 5 && devmon) &
+
+exec i3
