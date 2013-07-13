@@ -2,7 +2,7 @@
 #
 # ~/.bashrc
 # 
-# This is my bash configuration file. Most of the pathes are personnal so you
+# This is my bash configuration file. Most of the paths are personnal so you
 # will have to adapt them to your machine.
 #
 # Maintainer: Bruno Parmentier
