@@ -72,10 +72,9 @@ alias path='echo -e ${PATH//:/\\n}'
 alias classpath='echo -e ${CLASSPATH//:/\\n}'
 
 # Various
-alias clr='clear'
 alias pingg='ping -c 3 www.google.com'
 alias su='su -'
-alias horaire='cd /home/bp/Documents/ESI/ && mupdf Tech1Bim4.pdf &'
+alias twobp='cd ~/Documents/projects/twobp/www/'
 
 ################################################################################
 # Functions
