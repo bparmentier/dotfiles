@@ -46,9 +46,12 @@ alias cdlan='cd ~/Documents/ESI/BA2/LAN'
 alias cdlcp='cd ~/Documents/ESI/BA2/LCP'
 alias cdlog='cd ~/Documents/ESI/BA2/LOG'
 alias cdlph='cd ~/Documents/ESI/BA2/LPH'
+alias cdrsfm='cd ~/Documents/ESI/BA2/RSFM'
 alias cdsta='cd ~/Documents/ESI/BA2/STA'
 alias cdsys='cd ~/Documents/ESI/BA2/SYS'
 alias cdtln='cd ~/Documents/ESI/BA2/TLN'
+alias cdwan='cd ~/Documents/ESI/BA2/WAN'
+
 
 # du
 alias du='du -h'
