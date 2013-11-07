@@ -167,7 +167,7 @@ set tabstop=4
 
 " Linebreak on 500 characters
 set lbr
-set tw=500
+set tw=80
 
 set ai "Auto indent
 set si "Smart indent
@@ -412,6 +412,9 @@ au BufRead,BufNewFile *.asm set filetype=nasm
 au BufRead,BufNewFile *.lda set filetype=lda
 au BufRead,BufNewFile .vimperatorrc set filetype=vimperator
 augroup END
+
+" Limit text width for Mutt
+au BufRead /tmp/mutt-* set tw=72
 
 " To-do: what does this line do?
 "au! Syntax newlang source $VIM/syntax/lda.vim
