@@ -238,6 +238,8 @@ autocmd BufReadPost *
 " Remember info about open buffers on close
 set viminfo^=%
 
+" Set maximum tabs number
+set tabpagemax=20
 
 """"""""""""""""""""""""""""""
 " => Status line
