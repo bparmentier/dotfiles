@@ -73,6 +73,7 @@ alias classpath='echo -e ${CLASSPATH//:/\\n}'
 alias pingg='ping -c 3 www.google.com'
 alias su='su -'
 alias twobp='cd ~/Documents/projects/twobp/www/'
+alias bimcc='cd ~/public_html/www/bimcc/homepage/'
 
 ################################################################################
 # Functions
