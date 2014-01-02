@@ -19,6 +19,10 @@ eval $(cat ~/.fehbg) &
 
 mpd ~/.mpdconf
 
+# Set fonts directories
+xset +fp /usr/share/fonts/local
+xset fp rehash
+
 # Screen powersave
 xset +dpms
 xset dpms 0 0 300
