@@ -413,6 +413,7 @@ augroup filetypedetect
 au BufRead,BufNewFile *.asm set filetype=nasm
 au BufRead,BufNewFile *.lda set filetype=lda
 au BufRead,BufNewFile .vimperatorrc set filetype=vimperator
+au BufRead,BufNewFile *.ino set filetype=arduino
 augroup END
 
 " Limit text width for Mutt
