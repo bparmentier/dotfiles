@@ -123,6 +123,12 @@ man()
 export CLASSPATH=$CLASSPATH.:~/Documents/ESI/LJV/classes:~/Documents/ESI/LJV/projet:/usr/local/share/java/junit.jar:/usr/local/share/java/itextpdf.jar
 export PATH=$PATH:/home/bp/scripts
 export EDITOR="vim"
+export TERM="xterm-color"
+
+if [ -f $HOME/.dir_colors ]
+then
+    eval `dircolors -b $HOME/.dir_colors`
+fi
 
 ################################################################################
 # Various
