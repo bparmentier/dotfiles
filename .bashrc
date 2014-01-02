@@ -141,6 +141,9 @@ shopt -s checkwinsize
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
+# "command-not-found" hook
+source /usr/share/doc/pkgfile/command-not-found.bash
+
 # Auto "cd" when entering just a path
 shopt -s autocd
 
