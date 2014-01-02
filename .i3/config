@@ -152,6 +152,7 @@ bindsym XF86AudioPlay exec ncmpcpp toggle
 # force specific windows to be floating
 for_window [class="Firefox" instance="Browser"] floating enable
 for_window [class="XCalc" instance="xcalc"] floating enable
+for_window [class="Vidalia" instance="vidalia"] floating enable
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
