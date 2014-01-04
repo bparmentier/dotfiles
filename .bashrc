@@ -34,6 +34,7 @@ alias lx='ll -BX'                           # sort by extension
 alias lz='ll -rS'                           # sort by size
 alias lt='ll -rt'                           # sort by date
 alias lm='la | more'
+alias l='ll'
 
 # cd
 alias ..='cd ..'
