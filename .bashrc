@@ -18,7 +18,7 @@
 
 #PS1='[\u@\h \W]\$ '
 #PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
-PS1='\n\[\033[0;32m\]\u@\h \[\033[1;33m\]\w\n\[\033[0m\]> '
+PS1='\n\[\033[0;32m\]\u@\h \[\033[1;30m\]\w\n\[\033[0m\]> '
 #PS1='\n\[\033[0;32m\]\u\[\033[0m\]@\[\033[0;32m\]\h \[\033[1;33m\]\w\n\[\033[0m\]> '
 
 ################################################################################
@@ -124,7 +124,7 @@ man()
 export CLASSPATH=$CLASSPATH.:~/Documents/ESI/LJV/classes:~/Documents/ESI/LJV/projet:/usr/local/share/java/junit.jar:/usr/local/share/java/itextpdf.jar
 export PATH=$PATH:/home/bp/scripts
 export EDITOR="vim"
-export TERM="xterm-color"
+#export TERM="xterm-color"
 
 if [ -f $HOME/.dir_colors ]
 then
