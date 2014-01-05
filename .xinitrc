@@ -27,6 +27,4 @@ xset fp rehash
 xset +dpms
 xset dpms 0 0 300
 
-#(sleep 5 && devmon) &
-
 exec i3
