@@ -144,8 +144,8 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # define multimedia keys
-bindsym XF86AudioLowerVolume exec amixer sset Master 5%-
-bindsym XF86AudioRaiseVolume exec amixer sset Master 5%+
+bindsym XF86AudioLowerVolume exec amixer sset PCM 5%-
+bindsym XF86AudioRaiseVolume exec amixer sset PCM 5%+
 bindsym XF86AudioMute exec amixer sset Master toggle
 bindsym XF86AudioPlay exec ncmpcpp toggle
 
