@@ -40,9 +40,11 @@ alias l='ll'
 alias ..='cd ..'
 alias cdesi='cd ~/Documents/ESI/'
 alias cdain='cd ~/Documents/ESI/BA2/AIN'
+alias cdalg='cd ~/Documents/ESI/BA2/ALG'
 alias cdanl='cd ~/Documents/ESI/BA2/ANL'
 alias cdbdo='cd ~/Documents/ESI/BA2/BDO'
 alias cdcpp='cd ~/Documents/ESI/BA2/CPP'
+alias cdgar='cd ~/Documents/ESI/BA2/GAR'
 alias cdlan='cd ~/Documents/ESI/BA2/LAN'
 alias cdlcp='cd ~/Documents/ESI/BA2/LCP'
 alias cdlog='cd ~/Documents/ESI/BA2/LOG'
@@ -71,10 +73,12 @@ alias path='echo -e ${PATH//:/\\n}'
 alias classpath='echo -e ${CLASSPATH//:/\\n}'
 
 # Various
-alias pingg='ping -c 3 www.google.com'
+alias pingb='ping -c 3 www.brunoparmentier.be'
 alias su='su -'
 alias twobp='cd ~/Documents/projects/twobp/www/'
 alias bimcc='cd ~/public_html/www/bimcc/homepage/'
+alias mysite='cd ~/Documents/projects/mysite && source bin/activate && cd brunoparmentier.be && source _nikola_bash'
+alias obs='cd ~/Documents/workspace/OpenBikeSharing/'
 
 ################################################################################
 # Functions
@@ -121,8 +125,8 @@ man()
 # Variable Environments
 ################################################################################
 
-export CLASSPATH=$CLASSPATH.:~/Documents/ESI/LJV/classes:~/Documents/ESI/LJV/projet:/usr/local/share/java/junit.jar:/usr/local/share/java/itextpdf.jar
-export PATH=$PATH:/home/bp/scripts
+export CLASSPATH=$CLASSPATH.:~/Documents/ESI/BA1/LJV/classes:~/Documents/ESI/BA1/LJV/projet:/usr/local/share/java/junit.jar:/usr/local/share/java/itextpdf.jar
+export PATH=$PATH:/home/bp/scripts:/home/bp/.gem/ruby/2.1.0/bin
 export EDITOR="vim"
 #export TERM="xterm-color"
 
