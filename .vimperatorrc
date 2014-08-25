@@ -2,7 +2,7 @@
 set titlestring="Mozilla Firefox - Vimperator"
 
 " Default search engine
-set defsearch=duckduckgo
+set defsearch=ddg
 
 " QuickMarks
 silent qmark a https://www.google.com/calendar/
@@ -16,3 +16,6 @@ silent qmark p http://elearning.esi.heb.be/index.php
 
 " Toolbars
 set toolbars=noaddons,nobookmarks,nomenu,nonavigation,tabs
+
+" Try https version of the website
+map h O<C-a><Right><Right><Right><Right><Right><Right><Right><Right><Right>s<CR>
