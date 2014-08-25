@@ -20,7 +20,7 @@ download_rate = 2100
 upload_rate = 200
 
 # Default directory to save the downloaded torrents.
-directory = /home/bp/Téléchargements/torrents
+directory = /home/bp/Downloads/torrents
 
 # Default session directory. Make sure you don't run multiple instance
 # of rtorrent using the same session directory. Perhaps using a
@@ -29,7 +29,7 @@ session = /home/bp/.session
 
 # Watch a directory for new torrents, and stop those that have been
 # deleted.
-schedule = watch_directory,5,5,load_start=/home/bp/Téléchargements/watch/*.torrent
+schedule = watch_directory,5,5,load_start=/home/bp/Downloads/watch/*.torrent
 #*/ Wrong highlight in Vim
 #schedule = untied_directory,5,5,stop_untied=
 
