@@ -42,12 +42,12 @@ status.register("runwatch",
 # Ethernet status (eth0)
 status.register("network",
     interface="eth0",
-    format_up="{v4cidr}",)
+    format_up="eth0: {v4cidr}",)
 
 # Ethernet status (usb0)
 status.register("network",
     interface="usb0",
-    format_up="{v4cidr}",)
+    format_up="usb0: {v4cidr}",)
 
 # Wireless status (wlan1)
 status.register("wireless",
