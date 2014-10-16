@@ -59,11 +59,6 @@ status.register("wireless",
     interface="wl0",
     format_up="wl0: {v4cidr} ({essid} {quality:03.0f} %)",)
 
-# Disk usage (/home)
-status.register("disk",
-    path="/home",
-    format="/home: {avail} GiB free",)
-
 # Disk usage (/)
 status.register("disk",
     path="/",
