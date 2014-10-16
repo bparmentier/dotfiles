@@ -39,25 +39,25 @@ status.register("runwatch",
     name="DHCP",
     path="/var/run/dhcpcd*.pid",)
 
-# Ethernet status (eth0)
+# Ethernet status (en0)
 status.register("network",
-    interface="eth0",
-    format_up="eth0: {v4cidr}",)
+    interface="en0",
+    format_up="en0: {v4cidr}",)
 
 # Ethernet status (usb0)
 status.register("network",
     interface="usb0",
     format_up="usb0: {v4cidr}",)
 
-# Wireless status (wlan1)
+# Wireless status (wl1)
 status.register("wireless",
-    interface="wlan1",
-    format_up="wlan1: {v4cidr} ({essid} {quality:03.0f} %)",)
+    interface="wl1",
+    format_up="wl1: {v4cidr} ({essid} {quality:03.0f} %)",)
 
-# Wireless status (wlan0)
+# Wireless status (wl0)
 status.register("wireless",
-    interface="wlan0",
-    format_up="wlan0: {v4cidr} ({essid} {quality:03.0f} %)",)
+    interface="wl0",
+    format_up="wl0: {v4cidr} ({essid} {quality:03.0f} %)",)
 
 # Disk usage (/home)
 status.register("disk",
